@@ -5,7 +5,7 @@ We got the data from https://github.com/brian-fischer/DATA-3320 which is our pro
 These were taken from an other online source NOAA site.
 seattle_rain.csv and stl_rain.csv are datasets on rainfall.
 
-Data Preparation <br />
+Data Preparation  return
 To clean the data I first looked for the columns I was most interested in such as date and precipitation.
 Then I checked for any missing or invalid values, once discovering them I imputed them using the mean for that
 day across all the years, now not affecting my calculation as much. I also joined the tables on the date and precipitation
